@@ -19,6 +19,7 @@
 		7E27E5B21B94F3B00065C226 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27E5B11B94F3B00065C226 /* InterfaceController.swift */; };
 		7E27E5B41B94F3B00065C226 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27E5B31B94F3B00065C226 /* ExtensionDelegate.swift */; };
 		7E27E5B61B94F3B00065C226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E27E5B51B94F3B00065C226 /* Assets.xcassets */; };
+		7E27E5C61B94F45B0065C226 /* HapticTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27E5C51B94F45B0065C226 /* HapticTableRowController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		7E27E5B31B94F3B00065C226 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		7E27E5B51B94F3B00065C226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E27E5B71B94F3B00065C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E27E5C51B94F45B0065C226 /* HapticTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticTableRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				7E27E5B11B94F3B00065C226 /* InterfaceController.swift */,
+				7E27E5C51B94F45B0065C226 /* HapticTableRowController.swift */,
 				7E27E5B31B94F3B00065C226 /* ExtensionDelegate.swift */,
 				7E27E5B51B94F3B00065C226 /* Assets.xcassets */,
 				7E27E5B71B94F3B00065C226 /* Info.plist */,
@@ -296,6 +299,7 @@
 			files = (
 				7E27E5B41B94F3B00065C226 /* ExtensionDelegate.swift in Sources */,
 				7E27E5B21B94F3B00065C226 /* InterfaceController.swift in Sources */,
+				7E27E5C61B94F45B0065C226 /* HapticTableRowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

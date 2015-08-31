@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8187.4" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchOS2_NewUI_HapticTapticEngine_Example_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="9G0-SB-jwz">
+                            <items>
+                                <tableRow identifier="HapticTableRowController" id="kH0-bj-lu2" customClass="HapticTableRowController" customModule="WatchOS2_NewUI_HapticTapticEngine_Example_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="QSS-Ly-POy">
+                                        <items>
+                                            <button width="1" height="22" alignment="left" title="Button" id="w4K-As-Lrk">
+                                                <connections>
+                                                    <action selector="buttonPressed" destination="kH0-bj-lu2" id="MsR-5S-KDa"/>
+                                                </connections>
+                                            </button>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="interfaceButton" destination="w4K-As-Lrk" id="YlH-ra-YGK"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="interfaceTable" destination="9G0-SB-jwz" id="lvi-5R-zrp"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="282" y="429"/>
         </scene>
     </scenes>
 </document>
