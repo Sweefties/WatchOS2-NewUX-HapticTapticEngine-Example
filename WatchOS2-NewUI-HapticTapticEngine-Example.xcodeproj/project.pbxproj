@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E27E58F1B94F3B00065C226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27E58E1B94F3B00065C226 /* AppDelegate.swift */; };
+		7E27E5911B94F3B00065C226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27E5901B94F3B00065C226 /* ViewController.swift */; };
+		7E27E5941B94F3B00065C226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E27E5921B94F3B00065C226 /* Main.storyboard */; };
+		7E27E5961B94F3B00065C226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E27E5951B94F3B00065C226 /* Assets.xcassets */; };
+		7E27E5991B94F3B00065C226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E27E5971B94F3B00065C226 /* LaunchScreen.storyboard */; };
+		7E27E59E1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7E27E59D1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App.app */; };
+		7E27E5A41B94F3B00065C226 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E27E5A21B94F3B00065C226 /* Interface.storyboard */; };
+		7E27E5A61B94F3B00065C226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E27E5A51B94F3B00065C226 /* Assets.xcassets */; };
+		7E27E5AD1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E27E5AC1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E27E5B21B94F3B00065C226 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27E5B11B94F3B00065C226 /* InterfaceController.swift */; };
+		7E27E5B41B94F3B00065C226 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27E5B31B94F3B00065C226 /* ExtensionDelegate.swift */; };
+		7E27E5B61B94F3B00065C226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E27E5B51B94F3B00065C226 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E27E59F1B94F3B00065C226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E27E5831B94F3B00065C226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E27E59C1B94F3B00065C226;
+			remoteInfo = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App";
+		};
+		7E27E5AE1B94F3B00065C226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E27E5831B94F3B00065C226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E27E5AB1B94F3B00065C226;
+			remoteInfo = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E27E5BD1B94F3B00065C226 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7E27E5AD1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E27E5C11B94F3B00065C226 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7E27E59E1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E27E58B1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchOS2-NewUI-HapticTapticEngine-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E27E58E1B94F3B00065C226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E27E5901B94F3B00065C226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E27E5931B94F3B00065C226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E27E5951B94F3B00065C226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E27E5981B94F3B00065C226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E27E59A1B94F3B00065C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E27E59D1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E27E5A31B94F3B00065C226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7E27E5A51B94F3B00065C226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E27E5A71B94F3B00065C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E27E5AC1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E27E5B11B94F3B00065C226 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7E27E5B31B94F3B00065C226 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7E27E5B51B94F3B00065C226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E27E5B71B94F3B00065C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E27E5881B94F3B00065C226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E27E5A91B94F3B00065C226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E27E5821B94F3B00065C226 = {
+			isa = PBXGroup;
+			children = (
+				7E27E58D1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example */,
+				7E27E5A11B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App */,
+				7E27E5B01B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension */,
+				7E27E58C1B94F3B00065C226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E27E58C1B94F3B00065C226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E27E58B1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example.app */,
+				7E27E59D1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App.app */,
+				7E27E5AC1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E27E58D1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example */ = {
+			isa = PBXGroup;
+			children = (
+				7E27E58E1B94F3B00065C226 /* AppDelegate.swift */,
+				7E27E5901B94F3B00065C226 /* ViewController.swift */,
+				7E27E5921B94F3B00065C226 /* Main.storyboard */,
+				7E27E5951B94F3B00065C226 /* Assets.xcassets */,
+				7E27E5971B94F3B00065C226 /* LaunchScreen.storyboard */,
+				7E27E59A1B94F3B00065C226 /* Info.plist */,
+			);
+			path = "WatchOS2-NewUI-HapticTapticEngine-Example";
+			sourceTree = "<group>";
+		};
+		7E27E5A11B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7E27E5A21B94F3B00065C226 /* Interface.storyboard */,
+				7E27E5A51B94F3B00065C226 /* Assets.xcassets */,
+				7E27E5A71B94F3B00065C226 /* Info.plist */,
+			);
+			path = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App";
+			sourceTree = "<group>";
+		};
+		7E27E5B01B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E27E5B11B94F3B00065C226 /* InterfaceController.swift */,
+				7E27E5B31B94F3B00065C226 /* ExtensionDelegate.swift */,
+				7E27E5B51B94F3B00065C226 /* Assets.xcassets */,
+				7E27E5B71B94F3B00065C226 /* Info.plist */,
+			);
+			path = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E27E58A1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E27E5C21B94F3B00065C226 /* Build configuration list for PBXNativeTarget "WatchOS2-NewUI-HapticTapticEngine-Example" */;
+			buildPhases = (
+				7E27E5871B94F3B00065C226 /* Sources */,
+				7E27E5881B94F3B00065C226 /* Frameworks */,
+				7E27E5891B94F3B00065C226 /* Resources */,
+				7E27E5C11B94F3B00065C226 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E27E5A01B94F3B00065C226 /* PBXTargetDependency */,
+			);
+			name = "WatchOS2-NewUI-HapticTapticEngine-Example";
+			productName = "WatchOS2-NewUI-HapticTapticEngine-Example";
+			productReference = 7E27E58B1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E27E59C1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E27E5BE1B94F3B00065C226 /* Build configuration list for PBXNativeTarget "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App" */;
+			buildPhases = (
+				7E27E59B1B94F3B00065C226 /* Resources */,
+				7E27E5BD1B94F3B00065C226 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E27E5AF1B94F3B00065C226 /* PBXTargetDependency */,
+			);
+			name = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App";
+			productName = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App";
+			productReference = 7E27E59D1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7E27E5AB1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E27E5BA1B94F3B00065C226 /* Build configuration list for PBXNativeTarget "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension" */;
+			buildPhases = (
+				7E27E5A81B94F3B00065C226 /* Sources */,
+				7E27E5A91B94F3B00065C226 /* Frameworks */,
+				7E27E5AA1B94F3B00065C226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension";
+			productName = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension";
+			productReference = 7E27E5AC1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E27E5831B94F3B00065C226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Sweefties;
+				TargetAttributes = {
+					7E27E58A1B94F3B00065C226 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7E27E59C1B94F3B00065C226 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7E27E5AB1B94F3B00065C226 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 7E27E5861B94F3B00065C226 /* Build configuration list for PBXProject "WatchOS2-NewUI-HapticTapticEngine-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E27E5821B94F3B00065C226;
+			productRefGroup = 7E27E58C1B94F3B00065C226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E27E58A1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example */,
+				7E27E59C1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App */,
+				7E27E5AB1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E27E5891B94F3B00065C226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E27E5991B94F3B00065C226 /* LaunchScreen.storyboard in Resources */,
+				7E27E5961B94F3B00065C226 /* Assets.xcassets in Resources */,
+				7E27E5941B94F3B00065C226 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E27E59B1B94F3B00065C226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E27E5A61B94F3B00065C226 /* Assets.xcassets in Resources */,
+				7E27E5A41B94F3B00065C226 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E27E5AA1B94F3B00065C226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E27E5B61B94F3B00065C226 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E27E5871B94F3B00065C226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E27E5911B94F3B00065C226 /* ViewController.swift in Sources */,
+				7E27E58F1B94F3B00065C226 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E27E5A81B94F3B00065C226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E27E5B41B94F3B00065C226 /* ExtensionDelegate.swift in Sources */,
+				7E27E5B21B94F3B00065C226 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E27E5A01B94F3B00065C226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E27E59C1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App */;
+			targetProxy = 7E27E59F1B94F3B00065C226 /* PBXContainerItemProxy */;
+		};
+		7E27E5AF1B94F3B00065C226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E27E5AB1B94F3B00065C226 /* WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension */;
+			targetProxy = 7E27E5AE1B94F3B00065C226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E27E5921B94F3B00065C226 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E27E5931B94F3B00065C226 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E27E5971B94F3B00065C226 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E27E5981B94F3B00065C226 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7E27E5A21B94F3B00065C226 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E27E5A31B94F3B00065C226 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E27E5B81B94F3B00065C226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E27E5B91B94F3B00065C226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E27E5BB1B94F3B00065C226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sweefties.WatchOS2-NewUI-HapticTapticEngine-Example.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		7E27E5BC1B94F3B00065C226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sweefties.WatchOS2-NewUI-HapticTapticEngine-Example.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		7E27E5BF1B94F3B00065C226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = WatchOS2_NewUI_HapticTapticEngine_Example_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sweefties.WatchOS2-NewUI-HapticTapticEngine-Example.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		7E27E5C01B94F3B00065C226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = WatchOS2_NewUI_HapticTapticEngine_Example_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sweefties.WatchOS2-NewUI-HapticTapticEngine-Example.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		7E27E5C31B94F3B00065C226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WatchOS2-NewUI-HapticTapticEngine-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sweefties.WatchOS2-NewUI-HapticTapticEngine-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E27E5C41B94F3B00065C226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WatchOS2-NewUI-HapticTapticEngine-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sweefties.WatchOS2-NewUI-HapticTapticEngine-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E27E5861B94F3B00065C226 /* Build configuration list for PBXProject "WatchOS2-NewUI-HapticTapticEngine-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E27E5B81B94F3B00065C226 /* Debug */,
+				7E27E5B91B94F3B00065C226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E27E5BA1B94F3B00065C226 /* Build configuration list for PBXNativeTarget "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E27E5BB1B94F3B00065C226 /* Debug */,
+				7E27E5BC1B94F3B00065C226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E27E5BE1B94F3B00065C226 /* Build configuration list for PBXNativeTarget "WatchOS2-NewUI-HapticTapticEngine-Example WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E27E5BF1B94F3B00065C226 /* Debug */,
+				7E27E5C01B94F3B00065C226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E27E5C21B94F3B00065C226 /* Build configuration list for PBXNativeTarget "WatchOS2-NewUI-HapticTapticEngine-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E27E5C31B94F3B00065C226 /* Debug */,
+				7E27E5C41B94F3B00065C226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E27E5831B94F3B00065C226 /* Project object */;
+}
