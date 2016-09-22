@@ -14,12 +14,12 @@ class HapticTableRowController: NSObject {
     @IBOutlet var interfaceButton: WKInterfaceButton!
     
     // MARK: - Property
-    var hapticType = WKHapticType.Click
+    var hapticType = WKHapticType.click
     
     // MARK: - Action
     @IBAction func buttonPressed() {
         // Gives haptic feedback to the user.
-        WKInterfaceDevice.currentDevice().playHaptic(hapticType)
+        WKInterfaceDevice.current().play(hapticType)
         print(hapticType.rawValue)
     }
     

@@ -16,23 +16,23 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var interfaceTable: WKInterfaceTable!
     
     // MARK: - Properties
-    private let rowType = "HapticTableRowController"
-    private let hapticTypeAllValues: [(String, WKHapticType)] = [
-        ("Notification",    .Notification),
-        ("DirectionUp",     .DirectionUp),
-        ("DirectionDown",   .DirectionDown),
-        ("Success",         .Success),
-        ("Failure",         .Failure),
-        ("Retry",           .Retry),
-        ("Start",           .Start),
-        ("Stop",            .Stop),
-        ("Click",           .Click)
+    fileprivate let rowType = "HapticTableRowController"
+    fileprivate let hapticTypeAllValues: [(String, WKHapticType)] = [
+        ("Notification",    .notification),
+        ("DirectionUp",     .directionUp),
+        ("DirectionDown",   .directionDown),
+        ("Success",         .success),
+        ("Failure",         .failure),
+        ("Retry",           .retry),
+        ("Start",           .start),
+        ("Stop",            .stop),
+        ("Click",           .click)
     ]
     
     
     // MARK: - Calls
-    override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
+    override func awake(withContext context: Any?) {
+        super.awake(withContext: context)
         // Configure interface objects here.
     }
 
@@ -53,16 +53,16 @@ class InterfaceController: WKInterfaceController {
 typealias TableDataSource = InterfaceController
 extension TableDataSource {
     
-    private func loadTableData() {
+    fileprivate func loadTableData() {
         
         // set number of rows for table
         interfaceTable.setNumberOfRows(hapticTypeAllValues.count, withRowType: rowType)
         
         // row for index
-        for (index, hapticTypeInfo) in hapticTypeAllValues.enumerate() {
+        for (index, hapticTypeInfo) in hapticTypeAllValues.enumerated() {
             
             let (haptic, hapticType) = hapticTypeInfo
-            let row = interfaceTable.rowControllerAtIndex(index) as! HapticTableRowController
+            let row = interfaceTable.rowController(at: index) as! HapticTableRowController
             
             row.interfaceButton.setTitle(haptic)
             row.hapticType = hapticType
